@@ -19,7 +19,6 @@ public class testCreateTableWithXml {
     ProcessEngineConfiguration pec=ProcessEngineConfiguration.createProcessEngineConfigurationFromResource("activiti.cfg.xml");
     // 获取流程引擎对象
     ProcessEngine processEngine=pec.buildProcessEngine();
-
     @Test
     public void testCreateTableWithXml(){
 
